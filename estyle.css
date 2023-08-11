@@ -1,0 +1,217 @@
+body{
+    
+    font-family: 'Poppins',sans-serif;
+    max-width: 100% ;
+    margin: 0 auto;
+    background-color: #100504;
+    color: #B6886C;
+    align-items: center;
+}
+main{
+    padding: 35px;
+}
+a{
+    text-decoration: none;
+}
+legend{
+    font-size: 22px;
+    text-align: center;
+}
+.menu {
+    background-color:  #100504;
+    height: 50px;
+    display: flex;
+    gap: 15px;
+    padding-top: 10px ;
+    padding-left: 50px;
+        
+}
+.icone{
+    width: 32px;
+    position: absolute;top:6px; right:100px;
+}
+.imagem-capa{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    }
+.menu-itens {
+    text-decoration: none;
+    color: #B6886C;
+}
+.slogan{
+   font-size: 18px;
+   color: #100504;
+   position: absolute;top:240px; left:40px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;top:80px; left:140px;
+}
+.logo-tipo{
+    font-size: 26px;
+    position: absolute;top:190px; left:40px;
+    color:#100504
+}
+.card-container{
+background-color: #100504;
+width: 400px;
+margin: 20px 10px;
+display:table;
+float: left;
+text-align: left;
+border-radius: 25px;
+transition: 0.2s ease-in-out;  
+color: #B6886C;
+}
+
+.card-container:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.icone:hover{
+    width: 30px;
+    transition: 0.2s ease-in-out; 
+}
+.logo:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.img-produto{
+    width: 100%;
+    height: 320;
+    border-radius: 25px;
+    display: block;
+    }
+.descricao{
+     color:#B6886C
+     
+    }
+
+h2,h3{
+    text-align: center;
+    display: block;
+    color:#B6886C
+    }
+
+.preco{
+    text-align: left;
+    color: #BD4A1A;
+    
+}
+.quantidade {
+    background-color: #B6886C;
+    color: #100504;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px;
+}
+.formulario{
+    width: 630px;
+    margin: auto;
+}
+button{
+    background-color: #BD4A1A;
+    border: none;
+    border-radius: 15PX;
+    padding: 10px;
+    box-shadow: 3px 3px 1px  #B6886C;
+    
+      
+    }
+
+    .comprar{
+    font-family: 'Poppins';
+    text-decoration: none; 
+    color: #100504;
+    font-size: 16px; 
+    }
+   
+ .rodape{
+    display: table;
+    width: 100%;
+    height:150px;
+    margin: auto auto;
+    text-align: center;
+     }
+
+     footer{
+        max-width: 100%;
+        background-color: #100504;
+        color:#B6886C;
+        height:150px;
+        margin: auto auto;
+    }
+    
+    .endereco{
+        text-align: left;
+        margin-left: 20px;
+        padding-top: 20px;
+          }
+    .entrar{
+        text-decoration: none;
+        color: #BD4A1A;   
+        position: absolute;top:6px; right:150px;
+    }
+    .cadastrar{
+        color: #BD4A1A;   
+        position: absolute;top:6px; right:220px;
+    }
+    .perfil{
+        color: #BD4A1A; 
+        position: absolute;top:6px; right:150px;
+
+    }
+    .formulario{
+    display: table;
+    padding: 40px;
+    width: 540px;
+    height:380px;
+   border-radius:8px;
+    border-color:#B6886C;
+    color: #B6886C ;
+    margin-top:10px;
+    box-shadow: 1px 1px 3px #B6886C ;
+      }
+
+      .grid{
+        display: table;
+        width: 350px;
+        height: 56px;
+        border-radius: 8px;
+      }
+        
+     #enviar{
+    background-color: #BD4A1A;
+    border: none;
+    border-radius: 5PX;
+    padding: 10px;
+    box-shadow: 1px 1px 1px  #B6886C;
+      }
+      #aviso{
+        text-align: center;
+      }
+      .entrega {
+        height: 25px;
+        background-color: #CCC;
+        position: relative;
+        width: 540px;
+        margin: auto;
+    }
+    .entrega .progress-bar{
+       position: absolute;
+       height: 100%;
+       background-color: #BD4A1A;
+       animation: progress-animation 20s infinite;
+    }
+    @keyframes progress-animation{
+        0% { width: 0%; } 
+        100% { width: 100%}
+    }
